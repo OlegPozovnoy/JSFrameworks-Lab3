@@ -1,0 +1,90 @@
+html,
+body,
+.App,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.info,
+.header {
+  width: 50%;
+  margin: auto;
+}
+
+.header {
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.header > img {
+  float: left;
+}
+li {
+  list-style-type: none;
+}
+
+/* Photo by Marco Molitor on Unsplash */
+.home-cta {
+  background: url("./images/background.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-cta > h1 {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 5rem;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.destroy {
+  display: inline;
+}
+
+.destroy > input[type="submit"] {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: #007bff;
+}
+
+.destroy:hover > input[type="submit"] {
+  text-decoration: underline;
+}
+
+.container,
+.flash {
+  margin-top: 60px;
+}
+
+.nav-destroy > input[type="submit"] {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  padding: 0.5rem 0.5rem;
+}
+
+@media (min-width: 992px) .nav-destroy>input[type="submit"] {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.nav-destroy:hover > input[type="submit"] {
+  color: rgba(0, 0, 0, 0.7);
+}
